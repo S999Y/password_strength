@@ -4,10 +4,9 @@ An interactive password strength checker built with HTML, CSS, and JavaScript �
 
 ---
 
-## 📸 Demo Preview
+## 🔗 Live Demo
 
-> A clean input form with an eye icon toggle and live validation feedback based on multiple password criteria. Perfect for login pages or sign-up forms.
-
+Check out the live version [here](https://s999y.github.io/password_strength/)
 ---
 
 ## 🧩 Features
