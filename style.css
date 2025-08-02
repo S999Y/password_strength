@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #4285F4;
+}
+
+.container {
+    background: white;
+    width: 450px;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.container .input {
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+
+.container .input #password {
+    width: 100%;
+    height: 100%;
+    padding: 0px 17px;
+    outline: none;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    border: 1px solid #545454;
+}
+
+.input i {
+    right: 18px;
+    top: 50%;
+    color: #999;
+    font-size: 1.2rem;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.container .content {
+    margin: 20px 0 10px;
+}
+
+.content p {
+    font-size: 1.3rem;
+}
+
+.content .requirements-list {
+    margin-top: 20px;
+}
+
+.requirements-list li {
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.requirements-list li i{
+    font-size: 0.6rem;
+    color: #aaa;
+    width: 20px;
+}
+
+.requirements-list li span {
+    margin-left: 15px;
+}
+
+.requirements-list li.valid i {
+    font-size: 1.2rem;
+    color: #4285F4;
+}
+.requirements-list li.valid span {
+    color: #999;
+}
